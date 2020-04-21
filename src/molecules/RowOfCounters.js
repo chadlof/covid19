@@ -10,10 +10,10 @@ const Wrapper = styled.div `
 export const  RowOfCounters = () => {
   return (
       <Wrapper>
-          <CounterBox label="Confirmed" bgColor={"#006989"}/>
-          <CounterBox label="Recovered" bgColor={"#4A5259"}/>
-          <CounterBox label="Deaths" bgColor={"#9A3322"}/>
-          <CounterBox label="Fatality Rate" bgColor={"#8D9394"}/>
+          <CounterBox label="Confirmed" bgColor={"#52858D"}/>
+          <CounterBox label="Recovered" bgColor={"#48A3AD"}/>
+          <CounterBox label="Deaths" bgColor={"#A93D43"}/>
+          <CounterBox label="Fatality Rate" bgColor={"#4E6B6F"}/>
       </Wrapper>
   )
 }

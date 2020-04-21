@@ -9,11 +9,10 @@ padding:14px;
 font-size: 28px;
 `
 export const  Title = () => {
-    const now = new Date.getYear()
-    console.log({now})
+
   return (
       <Wrapper>
-          COVID-19 Tracker {now}
+          COVID-19 Tracker 
       </Wrapper>
   )
 }
